@@ -3,3 +3,5 @@ data/raw/
 __pycache__/
 *.h5
 .env
+models/saved/rf_model.pkl
+data/processed/processed_data.csv
