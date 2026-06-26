@@ -1,0 +1,892 @@
+[
+  {
+    "id": "4d6fe516-2da0-49ab-9703-ed412a1fc85d",
+    "timestamp": "2026-04-28T06:30:06.717599+00:00",
+    "source_ip": "192.168.4.171",
+    "threat_type": "DoS GoldenEye",
+    "confidence": 0.9779,
+    "action_taken": "BlockIP",
+    "explanation": "Automated mitigation: confidence=0.98",
+    "is_anomaly": false
+  },
+  {
+    "id": "21d8d68f-3831-4077-b24f-8e81cc9753d9",
+    "timestamp": "2026-04-28T06:30:06.800465+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.4267,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.69) | LSTM(DoS Slowhttptest,0.71) | AE(anomaly,mse=0.076021) | IF(score=-0.5933)",
+    "is_anomaly": true
+  },
+  {
+    "id": "e5310500-f49e-44c3-8079-673cf1997b9e",
+    "timestamp": "2026-04-28T06:30:06.898946+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6967,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.60) | LSTM(Benign,0.83) | AE(anomaly,mse=0.089556) | IF(score=-0.5922)",
+    "is_anomaly": true
+  },
+  {
+    "id": "3fdf3ec0-1066-40ba-ac2a-643ae31d3fae",
+    "timestamp": "2026-04-28T06:30:07.000006+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6258,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.69) | LSTM(Benign,0.52) | AE(anomaly,mse=0.072067) | IF(score=-0.5933)",
+    "is_anomaly": true
+  },
+  {
+    "id": "467c5e2e-5449-4bf7-bf03-0da311c016c1",
+    "timestamp": "2026-04-28T06:30:07.091667+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6967,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.60) | LSTM(Benign,0.83) | AE(anomaly,mse=0.089556) | IF(score=-0.5922)",
+    "is_anomaly": true
+  },
+  {
+    "id": "1cac41d3-a615-453c-8ce5-3844858e29c3",
+    "timestamp": "2026-04-28T06:30:07.193140+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6258,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.69) | LSTM(Benign,0.52) | AE(anomaly,mse=0.072067) | IF(score=-0.5933)",
+    "is_anomaly": true
+  },
+  {
+    "id": "0ae803bc-4d79-4690-b818-3dba53b652f1",
+    "timestamp": "2026-04-28T06:30:07.321525+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6591,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.60) | LSTM(Benign,0.75) | AE(anomaly,mse=0.090011) | IF(score=-0.5922)",
+    "is_anomaly": true
+  },
+  {
+    "id": "7a14c03d-7fbe-427f-8b34-106078d66736",
+    "timestamp": "2026-04-28T06:30:07.363109+00:00",
+    "source_ip": "unknown",
+    "threat_type": "DoS Hulk",
+    "confidence": 0.9998,
+    "action_taken": "detect",
+    "explanation": "RF(DoS Hulk,1.00) | LSTM(DoS Hulk,1.00) | AE(anomaly,mse=0.037297) | IF(score=-0.5404)",
+    "is_anomaly": true
+  },
+  {
+    "timestamp": "2026-04-28T06:30:07.366506+00:00",
+    "source_ip": "192.168.153.239",
+    "action_type": "BLOCK"
+  },
+  {
+    "id": "b5df6e9f-e60c-4831-b275-23467491cc98",
+    "timestamp": "2026-04-28T06:30:07.378286+00:00",
+    "source_ip": "192.168.153.239",
+    "threat_type": "DoS Hulk",
+    "confidence": 0.9998,
+    "action_taken": "BlockIP",
+    "explanation": "Automated mitigation: confidence=1.00",
+    "is_anomaly": true
+  },
+  {
+    "id": "8243163f-2933-4b27-a8ca-5d272516300e",
+    "timestamp": "2026-04-28T06:30:07.425648+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6258,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.69) | LSTM(Benign,0.52) | AE(anomaly,mse=0.072067) | IF(score=-0.5933)",
+    "is_anomaly": true
+  },
+  {
+    "id": "c7a597da-ee8e-4fa6-bfa3-9a28a7e5ea1c",
+    "timestamp": "2026-04-28T06:30:07.516401+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.5446,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.67) | LSTM(DoS slowloris,0.59) | AE(anomaly,mse=0.073449) | IF(score=-0.5933)",
+    "is_anomaly": true
+  },
+  {
+    "id": "d9d466e1-0bbb-4b76-947f-7aa9f3502152",
+    "timestamp": "2026-04-28T06:30:07.622261+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.5451,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.67) | LSTM(DoS slowloris,0.59) | AE(anomaly,mse=0.073441) | IF(score=-0.5933)",
+    "is_anomaly": true
+  },
+  {
+    "id": "c7f559b8-798f-43aa-8eb4-df2af3b3d728",
+    "timestamp": "2026-04-28T06:30:07.738505+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6967,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.67) | LSTM(Benign,0.74) | AE(anomaly,mse=0.071674) | IF(score=-0.5979)",
+    "is_anomaly": true
+  },
+  {
+    "id": "7e222e60-34ba-4049-b786-54efce122b5d",
+    "timestamp": "2026-04-28T06:30:07.853693+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.5482,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.66) | LSTM(DoS slowloris,0.57) | AE(anomaly,mse=0.073343) | IF(score=-0.5933)",
+    "is_anomaly": true
+  },
+  {
+    "id": "58dc7a62-959f-4bb1-9e10-77bd780bcf2b",
+    "timestamp": "2026-04-28T06:30:07.992387+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6963,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.60) | LSTM(Benign,0.83) | AE(anomaly,mse=0.089800) | IF(score=-0.5922)",
+    "is_anomaly": true
+  },
+  {
+    "id": "0dba9992-e8d5-4c82-908f-9278cc62668f",
+    "timestamp": "2026-04-28T06:30:08.001630+00:00",
+    "source_ip": "unknown",
+    "threat_type": "DoS Hulk",
+    "confidence": 0.9999,
+    "action_taken": "detect",
+    "explanation": "RF(DoS Hulk,1.00) | LSTM(DoS Hulk,1.00) | AE(anomaly,mse=0.034547) | IF(score=-0.5069)",
+    "is_anomaly": true
+  },
+  {
+    "timestamp": "2026-04-28T06:30:08.006695+00:00",
+    "source_ip": "192.168.53.241",
+    "action_type": "BLOCK"
+  },
+  {
+    "id": "5ad89513-1754-4b6e-8b76-ebe13fc1e18f",
+    "timestamp": "2026-04-28T06:30:08.023004+00:00",
+    "source_ip": "192.168.53.241",
+    "threat_type": "DoS Hulk",
+    "confidence": 0.9999,
+    "action_taken": "BlockIP",
+    "explanation": "Automated mitigation: confidence=1.00",
+    "is_anomaly": true
+  },
+  {
+    "id": "585a5e04-6c3d-4a28-a6c5-caecb7942edf",
+    "timestamp": "2026-04-28T06:30:08.117327+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6963,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.60) | LSTM(Benign,0.83) | AE(anomaly,mse=0.089800) | IF(score=-0.5922)",
+    "is_anomaly": true
+  },
+  {
+    "id": "db8ef4bb-f42a-4651-9bb4-d27f01a8ebaf",
+    "timestamp": "2026-04-28T06:30:08.234968+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6258,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.69) | LSTM(Benign,0.52) | AE(anomaly,mse=0.072068) | IF(score=-0.5933)",
+    "is_anomaly": true
+  },
+  {
+    "id": "a1248172-1ac3-4602-bbd5-47593a944d89",
+    "timestamp": "2026-04-28T06:30:08.349174+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6963,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.60) | LSTM(Benign,0.83) | AE(anomaly,mse=0.089800) | IF(score=-0.5922)",
+    "is_anomaly": true
+  },
+  {
+    "id": "1a894159-97bb-4e27-ba6e-c666d8ef227c",
+    "timestamp": "2026-04-28T06:30:08.461179+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6963,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.60) | LSTM(Benign,0.83) | AE(anomaly,mse=0.089800) | IF(score=-0.5922)",
+    "is_anomaly": true
+  },
+  {
+    "id": "ba84c2b8-e2f0-4ce4-a58c-071056ceebd5",
+    "timestamp": "2026-04-28T06:30:08.596757+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6258,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.69) | LSTM(Benign,0.52) | AE(anomaly,mse=0.072066) | IF(score=-0.5933)",
+    "is_anomaly": true
+  },
+  {
+    "id": "5ba32632-9fd7-451a-9a94-1d2d6c8099ea",
+    "timestamp": "2026-04-28T06:30:08.652581+00:00",
+    "source_ip": "unknown",
+    "threat_type": "DoS Hulk",
+    "confidence": 0.9996,
+    "action_taken": "detect",
+    "explanation": "RF(DoS Hulk,1.00) | LSTM(DoS Hulk,1.00) | AE(anomaly,mse=0.005500) | IF(score=-0.4790)",
+    "is_anomaly": true
+  },
+  {
+    "timestamp": "2026-04-28T06:30:08.659317+00:00",
+    "source_ip": "192.168.68.68",
+    "action_type": "BLOCK"
+  },
+  {
+    "id": "24692246-b95d-4f61-af3c-6ee3b6f14fd3",
+    "timestamp": "2026-04-28T06:30:08.669601+00:00",
+    "source_ip": "192.168.68.68",
+    "threat_type": "DoS Hulk",
+    "confidence": 0.9996,
+    "action_taken": "BlockIP",
+    "explanation": "Automated mitigation: confidence=1.00",
+    "is_anomaly": true
+  },
+  {
+    "id": "578487f9-1bf4-4337-8685-7eb89d0301ca",
+    "timestamp": "2026-04-28T06:30:08.727857+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.5928,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.61) | LSTM(Benign,0.56) | AE(anomaly,mse=0.089483) | IF(score=-0.5955)",
+    "is_anomaly": true
+  },
+  {
+    "id": "aa7ac48e-04e6-41d9-a927-aa5de460e39e",
+    "timestamp": "2026-04-28T06:30:08.839301+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6258,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.69) | LSTM(Benign,0.52) | AE(anomaly,mse=0.072066) | IF(score=-0.5933)",
+    "is_anomaly": true
+  },
+  {
+    "id": "70d91035-ec2a-409a-9429-ee71a9737fea",
+    "timestamp": "2026-04-28T06:30:08.961239+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.5446,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.67) | LSTM(DoS slowloris,0.59) | AE(anomaly,mse=0.073448) | IF(score=-0.5933)",
+    "is_anomaly": true
+  },
+  {
+    "id": "f059c950-86b3-43a5-a6ea-1995b9973e66",
+    "timestamp": "2026-04-28T06:30:09.072284+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6707,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.60) | LSTM(Benign,0.77) | AE(anomaly,mse=0.090107) | IF(score=-0.5889)",
+    "is_anomaly": true
+  },
+  {
+    "id": "a5619344-32a8-41ed-b9a6-5f26b84a7884",
+    "timestamp": "2026-04-28T06:30:09.185546+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6808,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.62) | LSTM(Benign,0.77) | AE(anomaly,mse=0.090120) | IF(score=-0.5889)",
+    "is_anomaly": true
+  },
+  {
+    "id": "f44cf8cc-3d1f-4a0b-91c6-9fd3707f1436",
+    "timestamp": "2026-04-28T06:30:09.314437+00:00",
+    "source_ip": "unknown",
+    "threat_type": "DDoS",
+    "confidence": 0.9775,
+    "action_taken": "detect",
+    "explanation": "RF(DDoS,1.00) | LSTM(DDoS,0.94) | AE(normal,mse=0.000005) | IF(score=-0.3524)",
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2026-04-28T06:30:09.317476+00:00",
+    "source_ip": "192.168.59.228",
+    "action_type": "BLOCK"
+  },
+  {
+    "id": "ed7a46a8-44ba-4725-934f-4274b0aa089f",
+    "timestamp": "2026-04-28T06:30:09.325538+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6344,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.60) | LSTM(Benign,0.68) | AE(anomaly,mse=0.089970) | IF(score=-0.5922)",
+    "is_anomaly": true
+  },
+  {
+    "id": "26d50ae7-c501-4f6d-a6df-052a5efae630",
+    "timestamp": "2026-04-28T06:30:09.327619+00:00",
+    "source_ip": "192.168.59.228",
+    "threat_type": "DDoS",
+    "confidence": 0.9775,
+    "action_taken": "BlockIP",
+    "explanation": "Automated mitigation: confidence=0.98",
+    "is_anomaly": false
+  },
+  {
+    "id": "33d2fe54-062a-4cc1-8eb4-c4ea5083d304",
+    "timestamp": "2026-04-28T06:30:09.415977+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.4267,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.69) | LSTM(DoS Slowhttptest,0.71) | AE(anomaly,mse=0.076018) | IF(score=-0.5933)",
+    "is_anomaly": true
+  },
+  {
+    "id": "0c3d4dc0-2680-41c2-ab6c-1568cb2d9685",
+    "timestamp": "2026-04-28T06:30:09.520194+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6258,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.69) | LSTM(Benign,0.52) | AE(anomaly,mse=0.072067) | IF(score=-0.5933)",
+    "is_anomaly": true
+  },
+  {
+    "id": "a92d5b31-f4af-4049-ab28-5fadf5abba7b",
+    "timestamp": "2026-04-28T06:30:09.619506+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.5554,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.69) | LSTM(DoS slowloris,0.59) | AE(anomaly,mse=0.073468) | IF(score=-0.5933)",
+    "is_anomaly": true
+  },
+  {
+    "id": "a14e60ed-72e1-4d33-a95c-89ddbeea6229",
+    "timestamp": "2026-04-28T06:30:09.720601+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6816,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.62) | LSTM(Benign,0.77) | AE(anomaly,mse=0.090129) | IF(score=-0.5889)",
+    "is_anomaly": true
+  },
+  {
+    "id": "349b94ae-c4a9-467b-92b9-3279e3997fc5",
+    "timestamp": "2026-04-28T06:30:09.817886+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6258,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.69) | LSTM(Benign,0.52) | AE(anomaly,mse=0.072067) | IF(score=-0.5933)",
+    "is_anomaly": true
+  },
+  {
+    "id": "4a92f329-4fdd-42c4-8222-4ab720626fd9",
+    "timestamp": "2026-04-28T06:30:09.946339+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6702,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.60) | LSTM(Benign,0.77) | AE(anomaly,mse=0.090339) | IF(score=-0.5889)",
+    "is_anomaly": true
+  },
+  {
+    "id": "03d15f14-ae5e-4563-9a38-910e44207848",
+    "timestamp": "2026-04-28T06:30:09.966309+00:00",
+    "source_ip": "unknown",
+    "threat_type": "SSH-Patator",
+    "confidence": 0.9564,
+    "action_taken": "detect",
+    "explanation": "RF(SSH-Patator,1.00) | LSTM(SSH-Patator,0.89) | AE(normal,mse=0.000063) | IF(score=-0.4255)",
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2026-04-28T06:30:09.988326+00:00",
+    "source_ip": "192.168.54.191",
+    "action_type": "BLOCK"
+  },
+  {
+    "id": "8779ca39-f193-4cf5-b280-b027674c7164",
+    "timestamp": "2026-04-28T06:30:09.999067+00:00",
+    "source_ip": "192.168.54.191",
+    "threat_type": "SSH-Patator",
+    "confidence": 0.9564,
+    "action_taken": "BlockIP",
+    "explanation": "Automated mitigation: confidence=0.96",
+    "is_anomaly": false
+  },
+  {
+    "id": "e5a33000-d15c-4b6f-a3bb-90b3943f3b77",
+    "timestamp": "2026-04-28T06:30:10.065442+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6258,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.69) | LSTM(Benign,0.52) | AE(anomaly,mse=0.072066) | IF(score=-0.5933)",
+    "is_anomaly": true
+  },
+  {
+    "id": "9fc18fa5-4c6b-4f10-846b-ed5c1a1b0dd3",
+    "timestamp": "2026-04-28T06:30:10.181215+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6803,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.62) | LSTM(Benign,0.77) | AE(anomaly,mse=0.090351) | IF(score=-0.5889)",
+    "is_anomaly": true
+  },
+  {
+    "id": "283122c1-1067-4062-a6d4-16c34b2e22fd",
+    "timestamp": "2026-04-28T06:30:10.295548+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6258,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.69) | LSTM(Benign,0.52) | AE(anomaly,mse=0.072066) | IF(score=-0.5933)",
+    "is_anomaly": true
+  },
+  {
+    "id": "c31887cf-0ed8-4251-8882-bee538dcb4cb",
+    "timestamp": "2026-04-28T06:30:10.410443+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.7257,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.62) | LSTM(Benign,0.88) | AE(anomaly,mse=0.089957) | IF(score=-0.5889)",
+    "is_anomaly": true
+  },
+  {
+    "id": "f923c827-a4a2-413a-9478-8f9d92a60c77",
+    "timestamp": "2026-04-28T06:30:10.543231+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6629,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.60) | LSTM(Benign,0.76) | AE(anomaly,mse=0.090053) | IF(score=-0.5889)",
+    "is_anomaly": true
+  },
+  {
+    "id": "df566c31-36d4-4a92-91a3-f695befbd986",
+    "timestamp": "2026-04-28T06:30:10.639714+00:00",
+    "source_ip": "unknown",
+    "threat_type": "DoS Hulk",
+    "confidence": 0.9964,
+    "action_taken": "detect",
+    "explanation": "RF(DoS Hulk,1.00) | LSTM(DoS Hulk,0.99) | AE(anomaly,mse=0.015595) | IF(score=-0.4927)",
+    "is_anomaly": true
+  },
+  {
+    "timestamp": "2026-04-28T06:30:10.642978+00:00",
+    "source_ip": "192.168.79.70",
+    "action_type": "BLOCK"
+  },
+  {
+    "id": "930d5407-7c10-444a-b806-54ffbbc52487",
+    "timestamp": "2026-04-28T06:30:10.653810+00:00",
+    "source_ip": "192.168.79.70",
+    "threat_type": "DoS Hulk",
+    "confidence": 0.9964,
+    "action_taken": "BlockIP",
+    "explanation": "Automated mitigation: confidence=1.00",
+    "is_anomaly": true
+  },
+  {
+    "id": "1e76b8ed-1599-4542-a350-1d2e2c4b6d1f",
+    "timestamp": "2026-04-28T06:30:10.671388+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6258,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.69) | LSTM(Benign,0.52) | AE(anomaly,mse=0.072067) | IF(score=-0.5933)",
+    "is_anomaly": true
+  },
+  {
+    "id": "643fcf25-ffc2-4309-9a68-3020dc5007a3",
+    "timestamp": "2026-04-28T06:30:10.785896+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.7257,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.62) | LSTM(Benign,0.88) | AE(anomaly,mse=0.089957) | IF(score=-0.5889)",
+    "is_anomaly": true
+  },
+  {
+    "id": "21c84143-846e-4719-8771-b0449216d26a",
+    "timestamp": "2026-04-28T06:30:11.277741+00:00",
+    "source_ip": "unknown",
+    "threat_type": "DDoS",
+    "confidence": 0.9995,
+    "action_taken": "detect",
+    "explanation": "RF(DDoS,1.00) | LSTM(DDoS,1.00) | AE(anomaly,mse=0.004412) | IF(score=-0.4842)",
+    "is_anomaly": true
+  },
+  {
+    "timestamp": "2026-04-28T06:30:11.281587+00:00",
+    "source_ip": "192.168.144.155",
+    "action_type": "BLOCK"
+  },
+  {
+    "id": "2f4b1a73-2290-4a6e-8c26-6dc1eda5e7d6",
+    "timestamp": "2026-04-28T06:30:11.292394+00:00",
+    "source_ip": "192.168.144.155",
+    "threat_type": "DDoS",
+    "confidence": 0.9995,
+    "action_taken": "BlockIP",
+    "explanation": "Automated mitigation: confidence=1.00",
+    "is_anomaly": true
+  },
+  {
+    "id": "42acc99d-f7e6-463d-b38b-aa49ff506d12",
+    "timestamp": "2026-04-28T06:30:11.621977+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.8341,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.75) | LSTM(Benign,0.96) | AE(anomaly,mse=0.096234) | IF(score=-0.4884)",
+    "is_anomaly": true
+  },
+  {
+    "id": "2891ba70-64c8-420f-af2c-20dc67e378ea",
+    "timestamp": "2026-04-28T06:30:11.907997+00:00",
+    "source_ip": "unknown",
+    "threat_type": "DoS Hulk",
+    "confidence": 0.9999,
+    "action_taken": "detect",
+    "explanation": "RF(DoS Hulk,1.00) | LSTM(DoS Hulk,1.00) | AE(anomaly,mse=0.035888) | IF(score=-0.5074)",
+    "is_anomaly": true
+  },
+  {
+    "timestamp": "2026-04-28T06:30:11.911628+00:00",
+    "source_ip": "192.168.107.184",
+    "action_type": "BLOCK"
+  },
+  {
+    "id": "db015365-0547-4156-95a4-e5de8740890f",
+    "timestamp": "2026-04-28T06:30:11.922789+00:00",
+    "source_ip": "192.168.107.184",
+    "threat_type": "DoS Hulk",
+    "confidence": 0.9999,
+    "action_taken": "BlockIP",
+    "explanation": "Automated mitigation: confidence=1.00",
+    "is_anomaly": true
+  },
+  {
+    "id": "286d57c0-bd46-4d8e-98b0-eeb438d324cd",
+    "timestamp": "2026-04-28T06:30:12.551147+00:00",
+    "source_ip": "unknown",
+    "threat_type": "DDoS",
+    "confidence": 0.9987,
+    "action_taken": "detect",
+    "explanation": "RF(DDoS,1.00) | LSTM(DDoS,1.00) | AE(anomaly,mse=0.013003) | IF(score=-0.4960)",
+    "is_anomaly": true
+  },
+  {
+    "timestamp": "2026-04-28T06:30:12.554832+00:00",
+    "source_ip": "192.168.175.53",
+    "action_type": "BLOCK"
+  },
+  {
+    "id": "e1f7931a-2972-4d9d-be8a-a219ff49724a",
+    "timestamp": "2026-04-28T06:30:12.565802+00:00",
+    "source_ip": "192.168.175.53",
+    "threat_type": "DDoS",
+    "confidence": 0.9987,
+    "action_taken": "BlockIP",
+    "explanation": "Automated mitigation: confidence=1.00",
+    "is_anomaly": true
+  },
+  {
+    "id": "bb29671b-14af-4efa-9fa5-f64ceb466aae",
+    "timestamp": "2026-04-28T06:30:13.183471+00:00",
+    "source_ip": "unknown",
+    "threat_type": "DDoS",
+    "confidence": 0.9994,
+    "action_taken": "detect",
+    "explanation": "RF(DDoS,1.00) | LSTM(DDoS,1.00) | AE(normal,mse=0.000084) | IF(score=-0.4216)",
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2026-04-28T06:30:13.186789+00:00",
+    "source_ip": "192.168.135.130",
+    "action_type": "BLOCK"
+  },
+  {
+    "id": "8903e3fd-8953-4830-b4d2-52f4e03efeeb",
+    "timestamp": "2026-04-28T06:30:13.198444+00:00",
+    "source_ip": "192.168.135.130",
+    "threat_type": "DDoS",
+    "confidence": 0.9994,
+    "action_taken": "BlockIP",
+    "explanation": "Automated mitigation: confidence=1.00",
+    "is_anomaly": false
+  },
+  {
+    "id": "af4a33c1-5340-46a3-8c54-acf2364a1ea9",
+    "timestamp": "2026-04-28T06:30:13.807444+00:00",
+    "source_ip": "unknown",
+    "threat_type": "DoS Hulk",
+    "confidence": 0.9991,
+    "action_taken": "detect",
+    "explanation": "RF(DoS Hulk,1.00) | LSTM(DoS Hulk,1.00) | AE(anomaly,mse=0.012244) | IF(score=-0.4665)",
+    "is_anomaly": true
+  },
+  {
+    "timestamp": "2026-04-28T06:30:13.810433+00:00",
+    "source_ip": "192.168.250.65",
+    "action_type": "BLOCK"
+  },
+  {
+    "id": "b0621e53-a78e-46a0-bbcf-156d361f53e0",
+    "timestamp": "2026-04-28T06:30:13.822132+00:00",
+    "source_ip": "192.168.250.65",
+    "threat_type": "DoS Hulk",
+    "confidence": 0.9991,
+    "action_taken": "BlockIP",
+    "explanation": "Automated mitigation: confidence=1.00",
+    "is_anomaly": true
+  },
+  {
+    "id": "c23984e0-8fc5-490e-a8e6-a0ed96420398",
+    "timestamp": "2026-04-28T06:30:14.432434+00:00",
+    "source_ip": "unknown",
+    "threat_type": "DDoS",
+    "confidence": 0.9899,
+    "action_taken": "detect",
+    "explanation": "RF(DDoS,1.00) | LSTM(DDoS,0.97) | AE(normal,mse=0.000020) | IF(score=-0.3840)",
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2026-04-28T06:30:14.435378+00:00",
+    "source_ip": "192.168.26.24",
+    "action_type": "BLOCK"
+  },
+  {
+    "id": "a331f100-9e67-4133-bc89-74a9bd8d347a",
+    "timestamp": "2026-04-28T06:30:14.445740+00:00",
+    "source_ip": "192.168.26.24",
+    "threat_type": "DDoS",
+    "confidence": 0.9899,
+    "action_taken": "BlockIP",
+    "explanation": "Automated mitigation: confidence=0.99",
+    "is_anomaly": false
+  },
+  {
+    "id": "9b189ace-43a3-433e-bc81-b577a7b5f822",
+    "timestamp": "2026-04-28T06:30:15.054728+00:00",
+    "source_ip": "unknown",
+    "threat_type": "DoS Hulk",
+    "confidence": 0.999,
+    "action_taken": "detect",
+    "explanation": "RF(DoS Hulk,1.00) | LSTM(DoS Hulk,1.00) | AE(anomaly,mse=0.010844) | IF(score=-0.4590)",
+    "is_anomaly": true
+  },
+  {
+    "timestamp": "2026-04-28T06:30:15.057755+00:00",
+    "source_ip": "192.168.216.213",
+    "action_type": "BLOCK"
+  },
+  {
+    "id": "a491916e-679e-4617-bdc7-7fcd4c79497f",
+    "timestamp": "2026-04-28T06:30:15.068667+00:00",
+    "source_ip": "192.168.216.213",
+    "threat_type": "DoS Hulk",
+    "confidence": 0.999,
+    "action_taken": "BlockIP",
+    "explanation": "Automated mitigation: confidence=1.00",
+    "is_anomaly": true
+  },
+  {
+    "id": "5b5f9c3d-7abf-443c-aa25-a33619fc8a85",
+    "timestamp": "2026-04-28T06:30:15.675265+00:00",
+    "source_ip": "unknown",
+    "threat_type": "DoS Hulk",
+    "confidence": 0.9998,
+    "action_taken": "detect",
+    "explanation": "RF(DoS Hulk,1.00) | LSTM(DoS Hulk,1.00) | AE(anomaly,mse=0.037312) | IF(score=-0.5407)",
+    "is_anomaly": true
+  },
+  {
+    "timestamp": "2026-04-28T06:30:15.678521+00:00",
+    "source_ip": "192.168.141.12",
+    "action_type": "BLOCK"
+  },
+  {
+    "id": "ce50e39d-347d-412a-a60f-39054cf62f1a",
+    "timestamp": "2026-04-28T06:30:15.689077+00:00",
+    "source_ip": "192.168.141.12",
+    "threat_type": "DoS Hulk",
+    "confidence": 0.9998,
+    "action_taken": "BlockIP",
+    "explanation": "Automated mitigation: confidence=1.00",
+    "is_anomaly": true
+  },
+  {
+    "id": "2e94168e-9b35-474f-abb7-22a233479ed7",
+    "timestamp": "2026-04-28T06:30:16.300367+00:00",
+    "source_ip": "unknown",
+    "threat_type": "DoS Hulk",
+    "confidence": 0.9999,
+    "action_taken": "detect",
+    "explanation": "RF(DoS Hulk,1.00) | LSTM(DoS Hulk,1.00) | AE(anomaly,mse=0.022021) | IF(score=-0.4927)",
+    "is_anomaly": true
+  },
+  {
+    "timestamp": "2026-04-28T06:30:16.303413+00:00",
+    "source_ip": "192.168.1.86",
+    "action_type": "BLOCK"
+  },
+  {
+    "id": "66298490-d8db-4b65-8d80-5315fa589dff",
+    "timestamp": "2026-04-28T06:30:16.313390+00:00",
+    "source_ip": "192.168.1.86",
+    "threat_type": "DoS Hulk",
+    "confidence": 0.9999,
+    "action_taken": "BlockIP",
+    "explanation": "Automated mitigation: confidence=1.00",
+    "is_anomaly": true
+  },
+  {
+    "id": "a97fb0ab-01b5-450d-ba29-0fc789343c04",
+    "timestamp": "2026-04-28T06:30:16.922763+00:00",
+    "source_ip": "unknown",
+    "threat_type": "DDoS",
+    "confidence": 0.9885,
+    "action_taken": "detect",
+    "explanation": "RF(DDoS,1.00) | LSTM(DDoS,0.97) | AE(normal,mse=0.000011) | IF(score=-0.3849)",
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2026-04-28T06:30:16.925967+00:00",
+    "source_ip": "192.168.66.164",
+    "action_type": "BLOCK"
+  },
+  {
+    "id": "da95d247-7485-43ad-a6e8-e565f2ac35a4",
+    "timestamp": "2026-04-28T06:30:16.938530+00:00",
+    "source_ip": "192.168.66.164",
+    "threat_type": "DDoS",
+    "confidence": 0.9885,
+    "action_taken": "BlockIP",
+    "explanation": "Automated mitigation: confidence=0.99",
+    "is_anomaly": false
+  },
+  {
+    "id": "5ca9142e-70d1-4fa6-bbe1-6e23f845813e",
+    "timestamp": "2026-04-28T06:30:17.546412+00:00",
+    "source_ip": "unknown",
+    "threat_type": "DDoS",
+    "confidence": 0.5432,
+    "action_taken": "detect",
+    "explanation": "RF(DDoS,0.90) | LSTM(Benign,0.94) | AE(normal,mse=0.000001) | IF(score=-0.3384)",
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2026-04-28T06:30:17.549534+00:00",
+    "source_ip": "192.168.134.42",
+    "action_type": "MONITOR"
+  },
+  {
+    "id": "ddd8f095-d549-4913-a32f-f25cff9d50c9",
+    "timestamp": "2026-04-28T06:30:17.551544+00:00",
+    "source_ip": "192.168.134.42",
+    "threat_type": "DDoS",
+    "confidence": 0.5432,
+    "action_taken": "Monitor",
+    "explanation": "Automated mitigation: confidence=0.54",
+    "is_anomaly": false
+  },
+  {
+    "id": "9996fa54-0656-4e70-af4d-79b385295e29",
+    "timestamp": "2026-04-28T06:30:18.165601+00:00",
+    "source_ip": "unknown",
+    "threat_type": "DoS Hulk",
+    "confidence": 0.996,
+    "action_taken": "detect",
+    "explanation": "RF(DoS Hulk,0.99) | LSTM(DoS Hulk,1.00) | AE(anomaly,mse=0.002402) | IF(score=-0.4967)",
+    "is_anomaly": true
+  },
+  {
+    "timestamp": "2026-04-28T06:30:18.168571+00:00",
+    "source_ip": "192.168.226.142",
+    "action_type": "BLOCK"
+  },
+  {
+    "id": "f8505c6d-d869-47cd-8c2d-881c273db9bd",
+    "timestamp": "2026-04-28T06:30:18.180212+00:00",
+    "source_ip": "192.168.226.142",
+    "threat_type": "DoS Hulk",
+    "confidence": 0.996,
+    "action_taken": "BlockIP",
+    "explanation": "Automated mitigation: confidence=1.00",
+    "is_anomaly": true
+  },
+  {
+    "id": "e4b7fd0e-0bfc-4d8c-a818-b04f709c6e26",
+    "timestamp": "2026-04-28T06:30:52.939881+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6258,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.69) | LSTM(Benign,0.52) | AE(anomaly,mse=0.072066) | IF(score=-0.5933)",
+    "is_anomaly": true
+  },
+  {
+    "id": "9f525607-71c1-4a4a-a74c-62c24d605695",
+    "timestamp": "2026-04-28T06:30:53.071809+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.6258,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.69) | LSTM(Benign,0.52) | AE(anomaly,mse=0.072067) | IF(score=-0.5933)",
+    "is_anomaly": true
+  },
+  {
+    "id": "64ca1662-5ea0-4023-93d8-6769df05de67",
+    "timestamp": "2026-04-28T06:30:53.703190+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.7253,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.62) | LSTM(Benign,0.88) | AE(anomaly,mse=0.090202) | IF(score=-0.5889)",
+    "is_anomaly": true
+  },
+  {
+    "id": "3433fa83-7748-4a88-8a28-fb638b706807",
+    "timestamp": "2026-04-28T06:30:53.824993+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.7257,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.62) | LSTM(Benign,0.88) | AE(anomaly,mse=0.089957) | IF(score=-0.5889)",
+    "is_anomaly": true
+  },
+  {
+    "id": "0dd68ac3-c470-433d-9409-64fd1cbd2223",
+    "timestamp": "2026-04-28T06:31:25.781572+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.8341,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.75) | LSTM(Benign,0.96) | AE(anomaly,mse=0.096234) | IF(score=-0.4884)",
+    "is_anomaly": true
+  },
+  {
+    "id": "e583de8d-b330-40de-8732-2007b6d2cec0",
+    "timestamp": "2026-04-28T06:31:26.576231+00:00",
+    "source_ip": "unknown",
+    "threat_type": "Benign",
+    "confidence": 0.8341,
+    "action_taken": "detect",
+    "explanation": "RF(Benign,0.75) | LSTM(Benign,0.96) | AE(anomaly,mse=0.096234) | IF(score=-0.4884)",
+    "is_anomaly": true
+  }
+]
